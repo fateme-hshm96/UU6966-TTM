@@ -1,0 +1,71 @@
+{
+  "what_if": [
+    {
+      "Question": " what would happen to the predictions for instances with diabetes pedigree function less than 0.368 if you were to change bmi to 22.3?",
+      "Information": "diabetes is unlikely 88%",
+      "Answer": "For this subset of pedigree function less than 0.368 if bmi is 22.3, then 88% are unlikely to have diabetes and the rest are likely to have it."
+    },
+    {
+      "Question": " what would happen to the class probabilities if we increased blood pressure by 94?",
+      "Information": "diabetes is unlikely 80%",
+      "Answer": "Increasing blood pressure by 94 will put 20% of the data into likely to have diabetes."
+    },
+    {
+      "Question": " what if we took 40 points away from skin thickness for id 157 what would happen to the probability of the predictions?",
+      "Information": "80% diabetes is unlikely ",
+      "Answer": "patient 157 is 80% unlikely to have diabetes if skin thickness is decreased by 40."
+    },
+    {
+      "Question": " what would the predictions be if you set the diabetes pedigree function to 0.409 on the entire dataset?",
+      "Information": "diabetes is likely 35%",
+      "Answer": "setting the diabetes pedigree function to 0.409 makes 35% of instances in the entire dataset likely to have diabetes."
+    },
+    {
+      "Question": " what are the model’s predictions on diabetes pedigree function less than 12 and what would it be if you decreased insulin by 0.409?",
+      "Information": "63% diabetes is likely, with and without decreasing insulin",
+      "Answer": "for this subset of diabetes pedigree function less than 12, 63% are unlikely to have diabetes, and decreasing insulin by 0.409 does not change it"
+    },
+    {
+      "Question": " tell me what the model would predict if you decreased skin thickness by 5 on all the data",
+      "Information": "for 64 percent diabetes is unlikely ",
+      "Answer": "If we decrease skin thickness by 5 then 64% of all data points are unlikely to have diabetes."
+    },
+    {
+      "Question": " what would the prediction for id 667 be if you change the insulin level to 49?",
+      "Information": "Unlikely",
+      "Answer": "Setting insulin to 49 for patient 667 causes the model to predict they are unlikely to have diabetes."
+    },
+    {
+      "Question": " what would happen to the distribution of model predictions if people with glucose less than 130 had blood pressure decreased by 108 and insulin set to 30?",
+      "Information": "unlikely, 87%",
+      "Answer": "For the subset of data with glucose less than 130, if we drop blood pressure by 108 then 87% of them are unlikely to have diabetes "
+    }
+  ],
+  "pred_likelihood": [
+    {
+      "Question": "how likely is id 127 to have diabetes?",
+      "Information": "86%",
+      "Answer": "patient with id 127 is 86% likely to have diabetes"
+    },
+    {
+      "Question": "what is the probability that id 317 is predicted as likely to have diabetes by the model?",
+      "Information": "90 percent",
+      "Answer": "Patient 317 is 90% likely to have diabetes."
+    },
+    {
+      "Question": "what is the probability that id 451 is predicted as likely to have diabetes by the model?",
+      "Information": "13%",
+      "Answer": "Patient 451 is 13% likely to have diabetes."
+    },
+    {
+      "Question": "what is the likelihood that id 336 is predicted as likely to have diabetes by the model?",
+      "Information": "45%",
+      "Answer": "Patient 336 is 45% likely to have diabetes."
+    },
+    {
+      "Question": "what is the chance that the data point with id 595 is likely to have diabetes",
+      "Information": "79%",
+      "Answer": "Patient 595 is 79% likely to have diabetes"
+    }
+  ]
+}
